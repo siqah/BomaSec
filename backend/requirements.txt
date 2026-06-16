@@ -2,11 +2,13 @@
 # BomaSec — Backend Python Dependencies
 # ==========================================================================
 
-# ── Web Framework ──
 fastapi==0.115.12
 uvicorn[standard]==0.34.3
 pydantic==2.11.4
+pydantic[email]==2.11.4
 pydantic-settings==2.9.1
+email-validator>=2.0.0
+
 
 # ── Database (PostgreSQL) ──
 asyncpg==0.30.0

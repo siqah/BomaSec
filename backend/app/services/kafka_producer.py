@@ -33,7 +33,7 @@ async def start_producer() -> None:
         acks="all",
         max_request_size=1_048_576,  # 1 MB
         linger_ms=10,  # Batch for 10ms for throughput
-        compression_type="snappy",
+        compression_type="gzip",
     )
 
     await _producer.start()
