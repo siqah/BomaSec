@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* ── BomaSec Design Tokens ──────────────────────────────────────────────── */
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #e8e8ed;
+  --card: #12121a;
+  --card-foreground: #e8e8ed;
+  --primary: #6366f1;
+  --primary-foreground: #ffffff;
+  --secondary: #1e1e2e;
+  --secondary-foreground: #a1a1b5;
+  --muted: #1a1a28;
+  --muted-foreground: #71717a;
+  --accent: #22d3ee;
+  --destructive: #ef4444;
+  --border: #27273a;
+  --ring: #6366f1;
+  --radius: 0.75rem;
+}
+
+/* ── Base Reset ──────────────────────────────────────────────────────────── */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

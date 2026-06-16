@@ -1,0 +1,38 @@
+# ==========================================================================
+# BomaSec — Backend Python Dependencies
+# ==========================================================================
+
+# ── Web Framework ──
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+pydantic==2.11.4
+pydantic-settings==2.9.1
+
+# ── Database (PostgreSQL) ──
+asyncpg==0.30.0
+sqlalchemy[asyncio]==2.0.41
+psycopg2-binary==2.9.10
+alembic==1.16.1
+
+# ── Authentication ──
+PyJWT==2.10.1
+passlib[bcrypt]==1.7.4
+bcrypt==4.3.0
+python-multipart==0.0.20
+
+# ── Message Broker (Redpanda / Kafka) ──
+aiokafka==0.12.0
+
+# ── Search & Analytics (OpenSearch) ──
+opensearch-py==2.8.0
+
+# ── HTTP Client ──
+httpx==0.28.1
+
+# ── Testing ──
+pytest==8.4.1
+pytest-asyncio==1.0.0
+
+# ── Utilities ──
+python-dotenv==1.1.0
+orjson==3.10.18
